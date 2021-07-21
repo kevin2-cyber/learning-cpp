@@ -15,7 +15,7 @@ using namespace std;
     double result = num * num * num;
     return result;
 }*/
-/int getMax(int num1, int num2, int num3){
+/*int getMax(int num1, int num2, int num3){
     int result;
 
     if(num1 >= num2 && num1 >= num3){
@@ -27,7 +27,7 @@ using namespace std;
         result = num3;
     }
     return result;
-}
+}*/
 
 int main()
 {
@@ -82,5 +82,10 @@ int main()
         cout << "You are not male and not tall";
     }*/
 
-    cout << getMax(3,40,5);
+    //cout << getMax(3,40,5);
+    // int index = 1;
+    int nums[] = {2, 3, 4, 5, 7};
+    for(int i = 0; i < 5; i++){
+        cout << "Hello " << nums[i] << endl;
+    }
 }
